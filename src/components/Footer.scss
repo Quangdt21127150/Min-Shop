@@ -1,0 +1,19 @@
+.contact {
+  grid-area: a;
+}
+
+.categories {
+  grid-area: b;
+}
+
+.legal {
+  grid-area: c;
+}
+
+.company {
+  grid-area: d;
+}
+
+.grid-footer {
+  grid-template-areas: "a b" "c d";
+}

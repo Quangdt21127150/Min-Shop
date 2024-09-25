@@ -1,0 +1,12 @@
+.custom-select {
+  appearance: none;
+  background-color: white;
+  border-radius: 9999px;
+  border: 2px solid #f0f0f0;
+  padding-right: 3rem;
+  font-size: 1.25rem;
+}
+
+.custom-select::-ms-expand {
+  display: none;
+}

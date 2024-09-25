@@ -43,7 +43,7 @@ function Product() {
   };
 
   return (
-    <main className="flex flex-col gap-26 md:gap-28">
+    <section className="flex flex-col gap-26 md:gap-28">
       <section>
         <AddressBar
           pages={[
@@ -128,7 +128,7 @@ function Product() {
       <Reviews />
       <RelatedProducts />
       <Newsletter />
-    </main>
+    </section>
   );
 }
 

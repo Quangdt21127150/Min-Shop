@@ -10,7 +10,7 @@ function Home() {
   UseScrollToTop();
 
   return (
-    <main className="flex flex-col gap-26 md:gap-28">
+    <section className="flex flex-col gap-26 md:gap-28">
       <Header />
       <Categories />
       <Products />
@@ -20,7 +20,7 @@ function Home() {
       <section className="hidden md:block">
         <Newsletter />
       </section>
-    </main>
+    </section>
   );
 }
 

@@ -99,7 +99,7 @@ function Faq() {
   };
 
   return (
-    <main>
+    <>
       <AddressBar pages={["Home Page", "Categories", "FAQ Page"]} />
       <Heading title="Find the Answers" content="Frequently Asked" />
       <p className="text-heading-md font-bold mb-14 md:mb-16 lg:text-heading-lg xl:mb-[4.5rem]">
@@ -144,7 +144,7 @@ function Faq() {
           </section>
         ))}
       </section>
-    </main>
+    </>
   );
 }
 

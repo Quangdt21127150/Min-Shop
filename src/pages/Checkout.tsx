@@ -66,7 +66,7 @@ function Checkout() {
   };
 
   return (
-    <main>
+    <>
       <AddressBar
         pages={["Home Page", "Categories", "Shopping Cart", "Checkout"]}
       />
@@ -331,7 +331,7 @@ function Checkout() {
           </article>
         </article>
       </article>
-    </main>
+    </>
   );
 }
 

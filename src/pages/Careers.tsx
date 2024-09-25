@@ -73,7 +73,7 @@ function Careers() {
   });
 
   return (
-    <main>
+    <>
       <AddressBar pages={["Home Page", "Navigation", "Careers"]} />
 
       <Heading
@@ -117,7 +117,7 @@ function Careers() {
           ))}
         </ul>
       </section>
-    </main>
+    </>
   );
 }
 

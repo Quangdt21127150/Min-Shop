@@ -11,7 +11,7 @@ function Login() {
   const [password, setPassword] = useState("");
 
   return (
-    <main>
+    <>
       <AddressBar pages={["Home Page", "Categories", "Login"]} />
       <Heading
         title="Login"
@@ -48,7 +48,7 @@ function Login() {
           </section>
         </section>
       </section>
-    </main>
+    </>
   );
 }
 

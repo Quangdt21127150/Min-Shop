@@ -6,7 +6,7 @@ import ReachUs from "../components/ReachUs";
 
 function Contact() {
   return (
-    <main>
+    <>
       <AddressBar pages={["Home Page", "Categories", "Contact Us"]} />
 
       <section className="flex flex-col gap-26 md:gap-28 xl:gap-36">
@@ -76,7 +76,7 @@ function Contact() {
 
         <Newsletter />
       </section>
-    </main>
+    </>
   );
 }
 

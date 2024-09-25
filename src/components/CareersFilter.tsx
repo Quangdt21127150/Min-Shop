@@ -1,6 +1,6 @@
 import { useState } from "react";
 import PillButton from "./PillButton";
-import SelectField from "./SelectField";
+import SelectField from "./SelectField/SelectField";
 import TextField from "./TextField";
 import PillButton2 from "./PillButton2";
 

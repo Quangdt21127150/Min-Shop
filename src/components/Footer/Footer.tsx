@@ -1,14 +1,14 @@
 import { useState } from "react";
 import { useSelector } from "react-redux";
-import { RootState } from "../store/store";
+import { RootState } from "../../store/store";
 import "./Footer.scss";
-import logoImage from "../assets/logo.png";
-import sunImage from "../assets/sun.png";
-import moonImage from "../assets/moon.png";
-import brandLightImage from "../assets/brand-light.png";
+import logoImage from "../../assets/logo.png";
+import sunImage from "../../assets/sun.png";
+import moonImage from "../../assets/moon.png";
+import brandLightImage from "../../assets/brand-light.png";
 import Switch from "react-switch";
-import ContactMethods from "./ContactMethods";
-import LinkList from "./LinkList";
+import ContactMethods from "../ContactMethods";
+import LinkList from "../LinkList";
 
 const legal = [
   "Terms of Service",

@@ -12,7 +12,7 @@ function Signup() {
   const [password, setPassword] = useState("");
 
   return (
-    <main>
+    <>
       <AddressBar pages={["Home Page", "Categories", "Sign Up"]} />
       <Heading
         title="Sign Up"
@@ -42,7 +42,7 @@ function Signup() {
         </span>
 
         <section className="flex flex-col md:flex-row">
-          <Checkbox title="I have read and agree to &nbsp;" />
+          <Checkbox title="I have read and agree to &nbsp;" initState={false} />
           <Link
             to="/terms of service"
             className="cursor-pointer underline underline-offset-4 font-semibold ms-9 active:text-primary hover:text-primary md:ms-0 md:text-xl"
@@ -56,7 +56,7 @@ function Signup() {
           <PillButton2 content="Login" className="w-full" />
         </section>
       </section>
-    </main>
+    </>
   );
 }
 

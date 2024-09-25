@@ -41,7 +41,7 @@ function Category() {
   };
 
   return (
-    <main>
+    <>
       <AddressBar pages={["Home Page", "Navigation", `${name}`]} />
 
       <Heading
@@ -85,7 +85,7 @@ function Category() {
       />
 
       <Newsletter />
-    </main>
+    </>
   );
 }
 

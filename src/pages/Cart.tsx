@@ -43,7 +43,7 @@ function Cart() {
   const total = subtotal + tax + 15;
 
   return (
-    <main>
+    <>
       <AddressBar pages={["Home Page", "Categories", "Shopping Cart"]} />
       <section className="flex flex-col gap-6 mb-14 md:mb-16 md:flex-row md:gap-0 md:justify-between md:items-center xl:mb-[4.5rem]">
         <Heading title="Your Cart" content="Shopping Cart" />
@@ -108,7 +108,7 @@ function Cart() {
       </article>
 
       <Newsletter />
-    </main>
+    </>
   );
 }
 

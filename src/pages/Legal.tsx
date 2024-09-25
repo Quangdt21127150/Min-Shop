@@ -61,7 +61,7 @@ const legalSections = [
 
 function Legal() {
   return (
-    <main>
+    <>
       <AddressBar pages={["Home Page", "Categories", "Terms and Conditions"]} />
       <Heading title="Legal" content="Hygge - Terms &" className="md:hidden" />
       <Heading
@@ -91,7 +91,7 @@ function Legal() {
           </section>
         ))}
       </section>
-    </main>
+    </>
   );
 }
 

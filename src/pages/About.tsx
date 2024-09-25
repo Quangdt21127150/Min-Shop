@@ -9,7 +9,7 @@ function About() {
   UseScrollToTop();
 
   return (
-    <main>
+    <>
       <AddressBar pages={["Home Page", "Navigation", "About"]} />
 
       <section className="flex flex-col gap-26 md:gap-28 xl:gap-36">
@@ -18,7 +18,7 @@ function About() {
         <CompanyValues />
         <Newsletter />
       </section>
-    </main>
+    </>
   );
 }
 

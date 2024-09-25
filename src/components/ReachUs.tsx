@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Heading from "../components/Heading";
 import TextField from "./TextField";
-import SelectField from "./SelectField";
+import SelectField from "./SelectField/SelectField";
 import PillButton from "./PillButton";
 
 function ReachUs() {

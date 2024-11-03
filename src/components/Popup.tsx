@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import { Link, NavLink, useNavigate } from "react-router-dom";
+import { Link, NavLink, useLocation } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAngleRight } from "@fortawesome/free-solid-svg-icons";
 import { useSelector } from "react-redux";
@@ -23,11 +23,11 @@ function Popup({ isOpen, onClose }: PopupProps) {
     (state: RootState) => state.categories.categories
   );
 
-  const navigate = useNavigate();
+  const location = useLocation();
 
   useEffect(() => {
     onClose();
-  }, [navigate]);
+  }, [location]);
 
   return (
     <aside

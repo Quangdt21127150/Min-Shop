@@ -7,7 +7,9 @@ import PillButton from "./PillButton";
 import ProductsGrid from "./ProductsGrid";
 
 function Products() {
-  const products = useSelector((state: RootState) => state.products.products);
+  const products = useSelector(
+    (state: RootState) => state.products.products
+  ).slice(0, 16);
 
   const [currentIndex, setCurrentIndex] = useState(0);
   const [visibleProducts, setVisibleProducts] = useState(0);

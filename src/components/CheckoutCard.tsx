@@ -51,8 +51,7 @@ function CheckoutCard({ item, volumn, onDelete }: CheckoutCardProps) {
 
       <ExitButton
         onClick={onDelete}
-        className="bg-white border-2 border-accent md:p-4"
-        imgWidth="md:w-8"
+        className="bg-white border-2 border-accent"
       />
     </article>
   );

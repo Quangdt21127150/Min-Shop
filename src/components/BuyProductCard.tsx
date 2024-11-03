@@ -67,8 +67,7 @@ function BuyProductCard({
             />
             <ExitButton
               onClick={onDelete}
-              className="bg-white border-2 border-accent md:p-4 lg:hidden xl:inline"
-              imgWidth="md:w-8"
+              className="bg-white border-2 border-accent lg:hidden xl:inline"
             />
           </section>
         </section>
@@ -76,8 +75,7 @@ function BuyProductCard({
 
       <ExitButton
         onClick={onDelete}
-        className="hidden bg-white border-2 border-accent md:p-4 lg:block xl:hidden"
-        imgWidth="md:w-8"
+        className="hidden bg-white border-2 border-accent lg:block xl:hidden"
       />
     </article>
   );

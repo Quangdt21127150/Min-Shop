@@ -46,7 +46,7 @@ function NavBar() {
         </Link>
       </section>
 
-      <Popup isOpen={isOpen} onClose={toggleMenu} />
+      <Popup isOpen={isOpen} onClose={() => setIsOpen(false)} />
     </nav>
   );
 }

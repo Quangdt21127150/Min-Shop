@@ -2,8 +2,8 @@ import { useEffect } from "react";
 import { Link, NavLink, useLocation } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAngleRight } from "@fortawesome/free-solid-svg-icons";
-import { useSelector } from "react-redux";
-import { RootState } from "../store/store";
+// import { useSelector } from "react-redux";
+// import { RootState } from "../store/store";
 import logoImage from "../assets/logo.png";
 import searchImage from "../assets/search.png";
 import cartImage from "../assets/cart.svg";
@@ -19,9 +19,9 @@ interface PopupProps {
 }
 
 function Popup({ isOpen, onClose }: PopupProps) {
-  const categories = useSelector(
-    (state: RootState) => state.categories.categories
-  );
+  // const categories = useSelector(
+  //   (state: RootState) => state.categories.categories
+  // );
 
   const location = useLocation();
 

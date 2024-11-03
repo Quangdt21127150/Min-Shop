@@ -3,7 +3,7 @@ interface WhyUsCardProps {
   content: string;
   image: string;
   className?: string;
-  className2: string;
+  className2?: string;
 }
 
 function WhyUsCard({
